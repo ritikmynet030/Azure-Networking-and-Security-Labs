@@ -92,12 +92,13 @@ It covers **Layer-7 routing**, **path-based rules**, **HTTPS termination**, and 
 
 ## ✅ Validation & Testing
 - Access the Application Gateway public IP
-- Access this from your browser:
-        - "https://Application-Gateway-Public-IP/app1"
-        - "https://Application-Gateway-Public-IP/app2"
+- Access this from your browser
+- "https://Application-Gateway-Public-IP/app1"
 
 ![App1_output](03-app1-output.png)
 
+- "https://Application-Gateway-Public-IP/app2"
+  
 ![App2_output](04-app2-output.png)
 
 
