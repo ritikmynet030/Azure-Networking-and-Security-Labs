@@ -36,6 +36,7 @@ The implementation includes:
 
 ## 🏗️ Architecture Diagram (Logical)
 
+![Architecture](01-architecture-diagrams.png)
 
 ---
 
@@ -84,5 +85,4 @@ The implementation includes:
 - Internet browsing via Firewall ✅
 - ICMP blocked ❌ (expected behavior)
 
----
 
