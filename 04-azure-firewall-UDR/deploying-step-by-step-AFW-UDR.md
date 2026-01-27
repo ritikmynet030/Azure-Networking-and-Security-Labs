@@ -75,10 +75,14 @@
 - DNAT TCP 3389
 - Firewall Public IP → VM Private IP
 
+![NAT-Rule](afw-NAT-rule.png)
+
 ### 2️⃣ Application Rule – Web Access
 - Source: 10.0.2.0/24
 - Protocols: HTTP, HTTPS
 - Target FQDN: *
+
+![Application-Rule](afw-application-rule.png)
 
 ### 3️⃣ Network Rules
 | Purpose | Protocol | Port |
@@ -87,6 +91,8 @@
 | NTP | UDP | 123 |
 | SSH | TCP | 22 |
 | RDP | TCP | 3389 |
+
+![Network-Rule](afw-network-rule.png)
 
 ---
 
