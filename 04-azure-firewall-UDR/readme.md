@@ -40,13 +40,23 @@ The implementation includes:
 ---
 
 ## ⭐ Key Features Implemented
-✅ Azure Firewall (Standard SKU)
-✅ Mandatory Firewall Subnets configured correctly
-✅ User Defined Route (0.0.0.0/0) to Firewall
-✅ DNAT rule for secure RDP access
-✅ Application rules for outbound web traffic
-✅ Network rules for DNS, SSH, RDP, NTP
-✅ End-to-end traffic inspection & enforcement
+- ✅ Azure Firewall (Standard SKU)
+- ✅ Mandatory Firewall Subnets configured correctly
+- ✅ User Defined Route (0.0.0.0/0) to Firewall
+- ✅ DNAT rule for secure RDP access
+- ✅ Application rules for outbound web traffic
+- ✅ Network rules for DNS, SSH, RDP, NTP
+- ✅ End-to-end traffic inspection & enforcement
+
+---
+
+## 🧩 Azure Services Used
+- Azure Virtual Network (VNet)
+- Azure Firewall (Standard)
+- Azure Route Table (UDR)
+- Azure Public IP (Standard SKU)
+- Azure Virtual Machine (Windows Server)
+- Network Security Group (NSG)
 
 ---
 
