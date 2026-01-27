@@ -34,6 +34,22 @@ The implementation includes:
 
 ---
 
+## 🏗️ Architecture Diagram (Logical)
+
+
+---
+
+## ⭐ Key Features Implemented
+✅ Azure Firewall (Standard SKU)
+✅ Mandatory Firewall Subnets configured correctly
+✅ User Defined Route (0.0.0.0/0) to Firewall
+✅ DNAT rule for secure RDP access
+✅ Application rules for outbound web traffic
+✅ Network rules for DNS, SSH, RDP, NTP
+✅ End-to-end traffic inspection & enforcement
+
+---
+
 ## 🔐 Security Design
 - DNAT rule for RDP via Firewall Public IP
 - Application rules for HTTP/HTTPS internet access
