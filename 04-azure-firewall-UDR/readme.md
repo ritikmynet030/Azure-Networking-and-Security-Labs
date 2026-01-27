@@ -68,6 +68,17 @@ The implementation includes:
 
 ---
 
+## 🛠️ Key Skills Demonstrated
+- Azure networking & subnet planning
+- Enterprise firewall deployment
+- Secure inbound access using DNAT
+- Outbound traffic control using Application Rules
+- Layer 4 vs Layer 7 traffic handling
+- Route table association & forced tunneling
+- Real-world troubleshooting & validation
+
+---
+
 ## 🧪 Validation
 - RDP via Firewall Public IP ✅
 - Internet browsing via Firewall ✅
@@ -75,9 +86,3 @@ The implementation includes:
 
 ---
 
-## 🎯 Skills Gained
-- Azure Firewall deployment
-- User Defined Routing (UDR)
-- Secure outbound internet access
-- Layer 4 & Layer 7 firewall rules
-- Enterprise network traffic control
