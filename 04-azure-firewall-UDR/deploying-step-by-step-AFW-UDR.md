@@ -1,13 +1,13 @@
 
 # Azure Firewall + User Defined Route (UDR) – Step-by-Step Lab Guide
 
-## Step 1: Create Resource Group
+## 🔹 Step 1: Create Resource Group
 - Name: rg-azure-afw
 - Region: Central India
 
 ---
 
-## Step 2: Create Virtual Network
+## 🔹 Step 2: Create Virtual Network
 - Name: afw-vnet
 - Address space: 10.0.0.0/16
 
@@ -22,7 +22,7 @@
 
 ---
 
-## Step 3: Create Public IP for Firewall
+## 🔹 Step 3: Create Public IP for Firewall
 - Name: FW-Public-IP
 - SKU: Standard
 - Assignment: Static
@@ -30,7 +30,7 @@
 
 ---
 
-## Step 4: Deploy Azure Firewall
+## 🔹 Step 4: Deploy Azure Firewall
 - Name: Prod-AzureFirewall
 - SKU: Standard
 - VNet: afw-vnet
@@ -38,7 +38,7 @@
 
 ---
 
-## Step 5: Create Windows VM (AppSubnet)
+## 🔹 Step 5: Create Windows VM (AppSubnet)
 - Name: win-vm
 - Image: Windows Server 2025 Datacenter
 - Size: Standard_B1s
@@ -48,20 +48,20 @@
 
 ---
 
-## Step 6: Create Route Table (UDR)
+## 🔹 Step 6: Create Route Table (UDR)
 - Name: AppSubnet-UDR
 - Region: Central India
 
 ---
 
-## Step 7: Add Default Route to Firewall
+## 🔹 Step 7: Add Default Route to Firewall
 - Address prefix: 0.0.0.0/0
 - Next hop type: Virtual appliance
 - Next hop IP: Firewall Private IP (example: 10.0.0.4)
 
 ---
 
-## Step 8: Associate UDR with AppSubnet
+## 🔹 Step 8: Associate UDR with AppSubnet
 - VNet: afw-vnet
 - Subnet: AppSubnet
 
@@ -69,7 +69,7 @@
 
 ---
 
-## Step 9: Configure Azure Firewall Rules
+## 🔹 Step 9: Configure Azure Firewall Rules
 
 ### 1️⃣ NAT Rule – RDP
 - DNAT TCP 3389
@@ -90,13 +90,13 @@
 
 ---
 
-## Step 10: Verify RDP via Firewall
+## 🔹 Step 10: Verify RDP via Firewall
 - Use Firewall Public IP in RDP client
 - VM should connect successfully
 
 ---
 
-## Step 11: Testing Checklist
+## 🔹 Step 11: Testing Checklist
 From AppSubnet VM:
 
 - ping 8.8.8.8 ❌
@@ -111,10 +111,3 @@ From AppSubnet VM:
 ✔ Centralized firewall inspection  
 ✔ Enterprise-grade Azure networking design
 
----
-
-## 📌 AZ-104 Alignment
-- Implement Azure Firewall
-- Configure UDR
-- Secure VM access
-- Control outbound traffic
