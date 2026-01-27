@@ -80,7 +80,7 @@
 ### 2️⃣ Application Rule – Web Access
 - Source: 10.0.2.0/24
 - Protocols: HTTP, HTTPS
-- Target FQDN: *
+- Target FQDN: www.google.com, www.microsoft.com, www.youtube.com
 
 ![Application-Rule](afw-application-rule.png)
 
