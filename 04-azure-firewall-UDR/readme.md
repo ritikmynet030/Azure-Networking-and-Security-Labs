@@ -1,7 +1,9 @@
 # Azure Firewall with User Defined Route (UDR)
 
 ## 📌 Project Overview
-This project demonstrates how to secure outbound and inbound traffic for Azure Virtual Machines using Azure Firewall combined with User Defined Routes (UDR). The lab enforces all traffic from an application subnet to flow through Azure Firewall, following enterprise-grade network security best practices aligned with the AZ-104 (Microsoft Azure Administrator) exam objectives.
+This project demonstrates how to secure **outbound and inbound traffic for Azure Virtual Machines using Azure Firewall combined with User Defined Routes (UDR)**. The lab enforces all traffic from an application subnet to flow through Azure Firewall, following enterprise-grade network security.
+
+Instead of allowing VMs to access the internet directly, **every inbound and outbound connection is inspected, filtered, and controlled by Azure Firewall**, which is how real enterprise Azure environments are designed.
 
 The implementation includes:
 - Azure Firewall deployment
@@ -85,4 +87,17 @@ The implementation includes:
 - Internet browsing via Firewall ✅
 - ICMP blocked ❌ (expected behavior)
 
+---
 
+## What Real-World Problem Does This Solve?
+
+This lab simulates enterprise security architecture where:
+- No VM has direct internet access
+- All traffic is inspected
+- Security team controls access centrally
+- Compliance & logging are enforced
+
+💼 Used in:
+- Banks
+- Enterprises
+- Production Azure environments
