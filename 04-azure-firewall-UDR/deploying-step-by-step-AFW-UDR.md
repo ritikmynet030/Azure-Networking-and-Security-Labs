@@ -36,6 +36,8 @@
 - VNet: afw-vnet
 - Public IP: FW-Public-IP
 
+![Firewall](azure-firewall-created.png)
+
 ---
 
 ## 🔹 Step 5: Create Windows VM (AppSubnet)
