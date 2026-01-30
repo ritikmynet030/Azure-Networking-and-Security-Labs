@@ -39,6 +39,9 @@
 
 ✅ Create the storage account
 
+📸 Screenshot:  
+![Create Storage Account](Private-endpoint-azure-storage-account.png)
+
 ---
 
 ## 🔹 Step 4: Create Private Endpoint (MOST IMPORTANT)
@@ -105,7 +108,8 @@ Try:
 403 Forbidden
 Public network access is disabled
 
-screenshot
+📸 Screenshot:  
+![Access denied](Private-endpoint-azure-storage-account.png)
 
 ----
 
@@ -126,7 +130,8 @@ screenshot
 - Access allowed
 - Data loads correctly
 
-Screenshot
+📸 Screenshot:  
+![Access from winVM](Private-endpoint-azure-storage-account.png)
 
 ---
 
@@ -139,9 +144,7 @@ Screenshot
 ### Test DNS Resolution
 ``bash:
 1. nslookup stprivatendpoints.blob.core.windows.net
-
-Screenshot 
-
 2. nslookup stprivateendpoint001.privatelink.blob.core.windows.net
 
-Screenshot
+📸 Screenshot:  
+![Create Storage Account](Private-endpoint-azure-storage-account.png)
