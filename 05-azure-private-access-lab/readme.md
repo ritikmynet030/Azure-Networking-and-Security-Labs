@@ -34,8 +34,8 @@ Service Endpoints extend the **VNet identity** to Azure PaaS services while stil
 
 VNet (10.0.0.0/16)
 └── AppSubnet (10.0.2.0/24)
-│
-│ Service Endpoint (Microsoft.Storage)
-▼
-Azure Storage Account
+- │
+- │ Service Endpoint (Microsoft.Storage)
+- ▼
+- Azure Storage Account
 (Selected Networks Only)
