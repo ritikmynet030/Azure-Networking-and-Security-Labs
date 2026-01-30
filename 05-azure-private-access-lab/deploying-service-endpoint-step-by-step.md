@@ -117,6 +117,6 @@ Create a **Windows or Linux VM**:
 - ✔ Container opens normally
 
 📸 Screenshot:  
-![Access Allowed from VM](Service-endpoint-container-accessible-from-vm.png)
+![Access Allowed from VM](Service-endpoint-container-access-from-vm.png)
 
 📌 This confirms **Service Endpoint is working correctly**.
