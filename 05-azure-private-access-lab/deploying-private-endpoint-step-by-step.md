@@ -1,4 +1,4 @@
-
+## 🛠 Step-by-Step Implementation
 
 ---
 
@@ -63,4 +63,85 @@
 
 ### DNS (VERY IMPORTANT)
 - **Integrate with private DNS zone:** ✅ Yes  
-- **Private DNS zone created:**
+- **Private DNS zone created:** privatelink.blob.core.windows.net
+
+✅ Review + Create → **Private Endpoint deployed**
+
+---
+
+## 🔹 Step 5: Disable Public Access (ZERO EXPOSURE)
+
+**Storage Account → Networking → Firewalls and virtual networks**
+
+- **Public network access:** ❌ Disabled  
+- **Save**
+
+🚫 Storage is no longer accessible from the internet
+
+---
+
+## 🔹 Step 6: Deploy Test VMs (Inside VNet)
+
+Create **Windows & Linux VM**
+
+### Network Configuration
+- **VNet:** `vnet-privateendpoint`
+- **Subnet:** `AppSubnet`
+- **Public IP:** Optional (for testing only)
+
+---
+
+## 🔹 Step 7: Validation & Testing
+
+---
+
+### ❌ Test 1: From Local PC (Should FAIL)
+
+Try:
+- Azure Portal → Storage Account → Containers
+- Azure Storage Explorer
+
+**Expected Error:**
+403 Forbidden
+Public network access is disabled
+
+screenshot
+
+----
+
+✅ **Correct behavior**
+
+---
+
+### ✅ Test 2: From Windows VM (Should PASS)
+
+1. RDP into Windows VM
+2. Open browser
+3. Go to: https://portal.azure.com
+4. Navigate to:
+   - Storage Account → Containers
+5. Create container / upload blob
+
+✅ **SUCCESS**
+- Access allowed
+- Data loads correctly
+
+Screenshot
+
+---
+
+### ✅ Test 3: Confirm Private IP (DNS Validation)
+
+#### Login to Linux VM
+``bash: 
+- ssh -i <private-key-path> azureuser@<vm-public-ip>
+
+### Test DNS Resolution
+``bash:
+1. nslookup stprivatendpoints.blob.core.windows.net
+
+Screenshot 
+
+2. nslookup stprivateendpoint001.privatelink.blob.core.windows.net
+
+Screenshot
