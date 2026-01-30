@@ -18,7 +18,7 @@ These labs align with **AZ-104 (Microsoft Azure Administrator)** and real-world 
 
 ---
 
-## 🧪 Lab 1: Service Endpoint
+##  *Lab 1: Service Endpoint*
 
 ### 🎯 Objective
 Secure Azure Storage access so it is **allowed only from a specific VNet subnet** and blocked from the public internet.
@@ -75,7 +75,7 @@ VNet (10.0.0.0/16)
 ---
 ---
 
-## 🧪 Lab 7: Private Endpoint (Zero Public Exposure)
+##  *Lab 2: Private Endpoint (Zero Public Exposure)*
 
 ### 🎯 Objective
 Provide **private IP-based access** to Azure Storage with **public access completely disabled**.
