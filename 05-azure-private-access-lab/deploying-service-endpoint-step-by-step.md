@@ -48,7 +48,7 @@
    - Redundancy: LRS
 
 📸 Screenshot:  
-![Create Storage Account](azure-storage-account.png)
+![Create Storage Account](Service-endpoint-azure-storage-account.png)
 
 ---
 
@@ -96,7 +96,7 @@ Create a **Windows or Linux VM**:
 **Expected Result:**
 
 📸 Screenshot:  
-![Access Denied from Local PC](container-access-denied-from-localPC.png)
+![Access Denied from Local PC](Service-endpoint-container-access-denied-from-localPC.png)
 
 ---
 
@@ -117,6 +117,6 @@ Create a **Windows or Linux VM**:
 - ✔ Container opens normally
 
 📸 Screenshot:  
-![Access Allowed from VM](container-accessible-from-vm.png)
+![Access Allowed from VM](Service-endpoint-container-accessible-from-vm.png)
 
 📌 This confirms **Service Endpoint is working correctly**.
