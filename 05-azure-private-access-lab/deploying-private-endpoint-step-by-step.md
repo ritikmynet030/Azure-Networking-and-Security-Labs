@@ -109,9 +109,7 @@ Try:
 Public network access is disabled
 
 📸 Screenshot:  
-![Access denied](Private-endpoint-azure-storage-account.png)
-
-----
+![Access denied](Private-endpoint-storage-access-denied-from-localPC.png)
 
 ✅ **Correct behavior**
 
@@ -131,7 +129,7 @@ Public network access is disabled
 - Data loads correctly
 
 📸 Screenshot:  
-![Access from winVM](Private-endpoint-azure-storage-account.png)
+![Access from winVM](Private-endpoint-storage-access-from-winVM.png)
 
 ---
 
@@ -147,4 +145,4 @@ Public network access is disabled
 2. nslookup stprivateendpoint001.privatelink.blob.core.windows.net
 
 📸 Screenshot:  
-![Create Storage Account](Private-endpoint-azure-storage-account.png)
+![Confirming IP](Private-endpoint-confirming-privateIP-from-linuxVM.png)
