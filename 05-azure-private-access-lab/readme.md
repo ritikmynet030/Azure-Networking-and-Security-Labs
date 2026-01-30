@@ -96,3 +96,49 @@ VNet (10.0.0.0/16)
 - ▼
 - Azure Storage Account
 (Public Access Disabled)
+
+---
+
+### 🔧 Implementation Steps
+
+1. Create Resource Group  
+2. Create VNet and AppSubnet  
+3. Create Storage Account  
+4. Create **Private Endpoint** (blob sub-resource)  
+5. Integrate with Private DNS zone  
+6. Disable public network access  
+7. Deploy test VM in same VNet  
+
+---
+
+### 🌐 Private DNS Configuration
+
+- Private DNS Zone: privatelink.blob.core.windows.net
+- DNS zone linked to VNet
+- A record created automatically for storage account
+
+---
+
+### 🧪 Validation & Testing
+
+#### ❌ From Local PC
+- Access Storage via Portal / Storage Explorer
+- **Result:** Access denied (public access disabled)
+
+#### ✅ From VM (Linux)
+
+- ``bash
+nslookup stprivateendpoint001.blob.core.windows.net
+
+- Expected Output: Address: 10.0.2.x
+
+✔ Confirms Private IP resolution
+✔ Confirms Private Endpoint works
+
+## 🔍 Troubleshooting (Common Issues)
+Issue	Resolution:
+|-------------|--------------|
+| DNS resolves public IP | Link Private DNS zone to VNet |
+| NXDOMAIN error | Create DNS zone manually |
+| Access denied from VM	| Verify subnet & DNS |
+Private IP not shown	Recreate Private Endpoint
