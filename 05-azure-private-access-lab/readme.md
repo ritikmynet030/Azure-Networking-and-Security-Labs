@@ -136,9 +136,13 @@ nslookup stprivateendpoint001.blob.core.windows.net
 ✔ Confirms Private Endpoint works
 
 ## 🔍 Troubleshooting (Common Issues)
-Issue	Resolution:
-|-------------|--------------|
-| DNS resolves public IP | Link Private DNS zone to VNet |
-| NXDOMAIN error | Create DNS zone manually |
-| Access denied from VM	| Verify subnet & DNS |
-Private IP not shown	Recreate Private Endpoint
+
+This section lists common issues encountered while configuring **Private Endpoints** and their resolutions.
+
+| Issue | Resolution |
+|------|------------|
+| DNS resolves to public IP | Ensure the Private DNS zone (`privatelink.blob.core.windows.net`) is linked to the VNet |
+| NXDOMAIN error | Create the Private DNS zone manually and add the required A record |
+| Access denied from VM | Verify the VM is deployed in the correct subnet and DNS resolution is working |
+| Private IP not shown | Delete and recreate the Private Endpoint with DNS integration enabled |
+
