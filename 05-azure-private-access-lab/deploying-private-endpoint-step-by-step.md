@@ -91,7 +91,7 @@ Create **Windows & Linux VM**
 
 ---
 
-## 🔹 Step 7: Validation & Testing
+## 🔹 🧪 Step 7: Validation & Testing
 
 ---
 
