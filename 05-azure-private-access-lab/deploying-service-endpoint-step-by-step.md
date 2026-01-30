@@ -2,14 +2,14 @@
 
 ---
 
-## Step 1: Create Resource Group
+## 🔹 Step 1: Create Resource Group
 
 - **Name:** `rg-service-endpoint1`
 - **Region:** Central India
 
 ---
 
-## Step 2: Create Virtual Network & Subnet
+## 🔹 Step 2: Create Virtual Network & Subnet
 
 **Azure Portal → Virtual Network → Create**
 
@@ -27,7 +27,7 @@
 
 ---
 
-## Step 3: Enable Service Endpoint on Subnet
+## 🔹 Step 3: Enable Service Endpoint on Subnet
 
 1. Open **Virtual Network**
 2. Go to **Subnets → AppSubnet**
@@ -39,7 +39,7 @@
 📌 This allows the subnet to access Azure Storage securely.
 
 ---
-## Step 4: Create Azure Storage Account
+## 🔹 Step 4: Create Azure Storage Account
 1. Storage Accounts → Create
 2. Basics:
    - Name: stservicendpoints
@@ -52,7 +52,7 @@
 
 ---
 
-## Step 5: Restrict Storage Access to Subnet Only
+## 🔹 Step 5: Restrict Storage Access to Subnet Only
 
 1. Open **Storage Account**
 2. Go to **Networking**
@@ -69,7 +69,7 @@
 
 ---
 
-## Step 6: Deploy VM for Testing
+## 🔹 Step 6: Deploy VM for Testing
 
 Create a **Windows or Linux VM**:
 
@@ -80,7 +80,7 @@ Create a **Windows or Linux VM**:
 
 ---
 
-## 🧪 Step 7: Validation & Testing
+## 🔹 🧪 Step 7: Validation & Testing
 
 ---
 
