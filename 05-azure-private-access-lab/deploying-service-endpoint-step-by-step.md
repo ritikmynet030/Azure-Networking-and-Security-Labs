@@ -42,7 +42,7 @@
 ## Step 4: Create Azure Storage Account
 1. Storage Accounts → Create
 2. Basics:
-   - Name: stprivatendpoints
+   - Name: stservicendpoints
    - Region: Same as VNet
    - Performance: Standard
    - Redundancy: LRS
