@@ -132,8 +132,8 @@ nslookup stprivateendpoint001.blob.core.windows.net
 
 - Expected Output: Address: 10.0.2.x
 
-✔ Confirms Private IP resolution
-✔ Confirms Private Endpoint works
+- ✔ Confirms Private IP resolution
+- ✔ Confirms Private Endpoint works
 
 ## 🔍 Troubleshooting (Common Issues)
 
