@@ -2,17 +2,6 @@
 
 This project demonstrates **enterprise-grade Azure Private DNS implementation** integrated with **Azure Private Endpoints** to enable **secure, private name resolution for Azure PaaS services** without public internet exposure.
 
-> ⚠️ DNS is often ignored by candidates, but it is **critical in real-world Azure architectures**. This lab reflects **production-level design**, not just exam theory.
-
----
-
-## 📌 Lab Overview
-
-**Phase:** 6 – DNS (Enterprise Level)  
-**Lab:** Azure Private DNS  
-**Skill Level:** Intermediate → Advanced  
-**Target Role:** Azure Administrator / Cloud Engineer  
-
 ---
 
 ## 🎯 Objectives
