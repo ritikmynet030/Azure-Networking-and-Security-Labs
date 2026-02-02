@@ -24,6 +24,9 @@
 ### 🔹 Step 4: Create Private DNS Zone
 Private DNS Zone name (for Storage Account Blob): privatelink.blob.core.windows.net
 
+📸 Screenshot:  
+![Private DNS Created](private-dns-created.png)
+
 ---
 
 ### 🔹 Step 5:- Link Private DNS Zone to VNet
@@ -42,6 +45,9 @@ Private DNS Zone name (for Storage Account Blob): privatelink.blob.core.windows.
 	- Public access: Disabled
 - Create storage account
 
+📸 Screenshot:  
+![Private DNS Storage](private-dns-storage.png)
+
 ---
 
 ### 🔹 Step 7: Create Private Endpoint
@@ -52,12 +58,18 @@ Private DNS Zone name (for Storage Account Blob): privatelink.blob.core.windows.
   - Select: privatelink.blob.core.windows.net
   - Auto-create DNS A record
 
+📸 Screenshot:  
+![Private DNS Endpoints](private-dns-private-endpoints.png)
+
 ---
 
 ### 🔹 Step 8: Verify DNS Record
 Inside Private DNS Zone → Record Sets: StorageAccountName → 10.1.1.x
 
 ✅ This confirms private DNS mapping.
+
+📸 Screenshot:  
+![Private DNS Recordsets](private-dns-recordsets-verify.png)
 
 ---
 
@@ -67,6 +79,10 @@ From the Linux or Windows VM:
 
 ``bash
 nslookup stprivatednslab.blob.core.windows.net
+
+📸 Screenshot:  
+![Output](private-dns-output-result.png)
+
 
 ### ✅ Expected Output
 - CNAME → privatelink.blob.core.windows.net
