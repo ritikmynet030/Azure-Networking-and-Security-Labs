@@ -35,9 +35,12 @@ Private DNS Zone name (for Storage Account Blob): privatelink.blob.core.windows.
 
 ---
 
-### Step 6: Create Azure Storage Account
-- Public network access: **Disabled**
-- Used to demonstrate private PaaS access
+### Step 6:- Create Azure PaaS Service (Example: Storage Account)
+> Azure Portal → Storage Accounts → Create
+- Name: stprivatednslab
+- Networking:
+	- Public access: Disabled
+- Create storage account
 
 ---
 
@@ -46,12 +49,15 @@ Private DNS Zone name (for Storage Account Blob): privatelink.blob.core.windows.
 - Subnet: `vm-subnet`
 - DNS Integration:
   - Link to existing Private DNS Zone
+  - Select: privatelink.blob.core.windows.net
   - Auto-create DNS A record
 
 ---
 
 ### Step 8: Verify DNS Record
 Inside Private DNS Zone → Record Sets: StorageAccountName → 10.1.1.x
+
+✅ This confirms private DNS mapping.
 
 ---
 
