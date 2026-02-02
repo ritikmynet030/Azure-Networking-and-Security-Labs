@@ -1,7 +1,7 @@
 # 🚀 Azure Application Gateway (Layer 7 + WAF) Lab
 
 ## 📌 Project Overview
-This lab demonstrates **enterprise-grade HTTP/HTTPS traffic management** using **Azure Application Gateway (WAF v2)**.  
+This lab demonstrates **enterprise-grade HTTP/HTTPS traffic management** using **Azure Application Gateway (WAF v2)**. 
 It covers **Layer-7 routing**, **path-based rules**, **HTTPS termination**, and **Web Application Firewall (WAF)** protection, aligned with **AZ-104 (Microsoft Azure Administrator)** objectives.
 
 ---
