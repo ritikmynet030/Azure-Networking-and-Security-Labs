@@ -1,4 +1,4 @@
-## 🧪 Lab Implementation (Step-by-Step)
+## 🛠 Step-by-Step Implementation
 
 ### 🔹 Step 1: Create Resource Group
 - Name: `rg-private-dns-lab`
