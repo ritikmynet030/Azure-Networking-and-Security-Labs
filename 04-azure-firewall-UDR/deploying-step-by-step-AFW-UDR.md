@@ -1,4 +1,3 @@
-
 # Azure Firewall + User Defined Route (UDR) – Step-by-Step Lab Guide
 
 ## 🔹 Step 1: Create Resource Group
