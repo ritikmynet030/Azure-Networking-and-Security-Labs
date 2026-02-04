@@ -38,6 +38,9 @@
 
 ⏳ Deployment time: **30–45 minutes**
 
+📸 Screenshot:  
+![Gateway](S2S-virtual-network-gateway.png)
+
 ---
 
 ## Step 5: Create Local Network Gateway (On-Prem Simulation)
@@ -48,6 +51,9 @@ Represents the on-premises network.
 - **Address Space:** 10.1.0.0/16
 
 📌 In real environments, this is the **on-prem firewall public IP**
+
+📸 Screenshot:  
+![Local Gateway](S2S-local-network-gateway.png)
 
 ---
 
@@ -60,6 +66,9 @@ Represents the on-premises network.
 
 📌 Same key must be configured on the on-prem VPN device
 
+📸 Screenshot:  
+![VPN](S2S-vpn-connection.png)
+
 ---
 
 ## Step 7: Configure IPsec / IKE Policies (Optional – Enterprise)
@@ -67,6 +76,7 @@ Represents the on-premises network.
 - **Encryption:** AES256
 - **Integrity:** SHA256
 - **DH Group:** 14
+
 
 ---
 
