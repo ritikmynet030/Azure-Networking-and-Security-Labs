@@ -1,13 +1,12 @@
-
 ## 🛠 Step-by-Step Implementation
 
-## Step 1: Create Resource Group
+## 🔹 Step 1: Create Resource Group
 - **Name:** rg-s2s-vpn
 - **Region:** Central India
 
 ---
 
-## Step 2: Create Virtual Network
+## 🔹 Step 2: Create Virtual Network
 - **Name:** vnet-hybrid
 - **Address Space:** 10.0.0.0/16
 
@@ -21,14 +20,14 @@
 
 ---
 
-## Step 3: Create Public IP for VPN Gateway
+## 🔹 Step 3: Create Public IP for VPN Gateway
 - **Name:** pip-vpn-gateway
 - **SKU:** Standard
 - **Assignment:** Static
 
 ---
 
-## Step 4: Create Virtual Network Gateway
+## 🔹 Step 4: Create Virtual Network Gateway
 - **Name:** vng-s2s
 - **Gateway Type:** VPN
 - **VPN Type:** Route-based
@@ -43,7 +42,7 @@
 
 ---
 
-## Step 5: Create Local Network Gateway (On-Prem Simulation)
+## 🔹 Step 5: Create Local Network Gateway (On-Prem Simulation)
 Represents the on-premises network.
 
 - **Name:** lng-onprem
@@ -57,7 +56,7 @@ Represents the on-premises network.
 
 ---
 
-## Step 6: Create Site-to-Site VPN Connection
+## 🔹 Step 6: Create Site-to-Site VPN Connection
 - **Connection Name:** s2s-connection
 - **Type:** Site-to-Site
 - **Virtual Network Gateway:** vng-s2s
@@ -71,7 +70,7 @@ Represents the on-premises network.
 
 ---
 
-## Step 7: Configure IPsec / IKE Policies (Optional – Enterprise)
+## 🔹 Step 7: Configure IPsec / IKE Policies (Optional – Enterprise)
 - **IKE Version:** IKEv2
 - **Encryption:** AES256
 - **Integrity:** SHA256
@@ -80,14 +79,14 @@ Represents the on-premises network.
 
 ---
 
-## Step 8: Simulate On-Prem Network
+## 🔹 Step 8: Simulate On-Prem Network
 Options:
 - Deploy an **Azure VM** acting as on-prem
 - OR use this setup for **theoretical / exam practice**
 
 ---
 
-## Step 9: Validation & Testing
+## 🔹 Step 9: Validation & Testing
 - VPN Connection Status: **Connected**
 - Deploy a VM in Azure AppSubnet
 - Test:
