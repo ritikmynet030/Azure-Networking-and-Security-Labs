@@ -3,8 +3,6 @@
 ## 📌 Overview
 This project demonstrates how to configure an **Azure Site-to-Site (S2S) VPN** to establish **hybrid connectivity** between an Azure Virtual Network and an on-premises network (simulated).
 
-The lab follows **enterprise-grade best practices** and aligns with **AZ-104: Azure Administrator** exam objectives.
-
 ---
 
 ## 🎯 Objectives
@@ -43,12 +41,3 @@ Secure Tunnel
 - VPN status shows **Connected**
 - VM communication across networks
 - Successful ping / RDP / SSH
-
----
-
-## 📁 Repository Structure
-```text
-├── README.md
-├── deployment.md
-└── architecture/
-    └── s2s-vpn-architecture.png
