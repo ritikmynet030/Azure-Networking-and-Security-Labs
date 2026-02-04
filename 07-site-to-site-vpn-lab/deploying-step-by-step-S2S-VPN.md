@@ -86,14 +86,16 @@ Options:
 
 ---
 
-## 🔹 Step 9: Validation & Testing
-- VPN Connection Status: **Connected**
-- Deploy a VM in Azure AppSubnet
-- Test:
-  - Ping
-  - RDP (Windows)
-  - SSH (Linux)
+## 🔹 Step 9: Testing & Validation
 
+Due to no physical on-premises environment, validation was done using:
+
+- VPN Gateway configuration verification
+- Local Network Gateway route validation
+- Effective route table inspection on Azure VM
+
+Result:
+Traffic destined for on-prem network (10.1.0.0/16) is correctly routed via Azure VPN Gateway.
 ---
 
 ## ✅ Final Outcome
