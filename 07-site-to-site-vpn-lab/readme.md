@@ -14,6 +14,14 @@ This project demonstrates how to configure an **Azure Site-to-Site (S2S) VPN** t
 
 ---
 
+📘 Skills Demonstrated
+- Azure Virtual Networks
+- VPN Gateway (S2S)
+- Local Network Gateway
+- Hybrid Cloud Architecture
+
+---
+
 ## 🏗️ Architecture
 
 Azure VNet (10.0.0.0/16)
