@@ -1,10 +1,5 @@
 
----
-
-## 📄 `deployment.md` (Step-by-Step Deployment Guide)
-
-```md
-# Azure Site-to-Site VPN – Step-by-Step Deployment Guide
+## 🛠 Step-by-Step Implementation
 
 ## Step 1: Create Resource Group
 - **Name:** rg-s2s-vpn
@@ -96,11 +91,3 @@ Options:
 ✔ Hybrid connectivity established  
 ✔ Secure IPsec-encrypted tunnel  
 ✔ AZ-104 enterprise networking scenario completed  
-
----
-
-## 📌 Exam Relevance (AZ-104)
-- Implement VPN Gateway
-- Configure S2S connectivity
-- Understand hybrid networking
-- Secure traffic using IPsec
