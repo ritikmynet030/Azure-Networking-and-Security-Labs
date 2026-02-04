@@ -1,4 +1,4 @@
-# Azure Site-to-Site VPN – Hybrid Connectivity Lab (AZ-104)
+# Azure Site-to-Site VPN – Hybrid Connectivity Lab 
 
 ## 📌 Overview
 This project demonstrates how to configure an **Azure Site-to-Site (S2S) VPN** to establish **hybrid connectivity** between an Azure Virtual Network and an on-premises network (simulated).
