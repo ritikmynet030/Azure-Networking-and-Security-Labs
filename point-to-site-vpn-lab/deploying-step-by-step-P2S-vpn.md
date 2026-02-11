@@ -60,7 +60,7 @@ Run PowerShell as Administrator:
 ``powershell
 
 📸 Screenshot:  
-![Gateway](S2S-virtual-network-gateway.png)
+![Local PC Cert](local-pc-certs.png)
 
 ---
 
