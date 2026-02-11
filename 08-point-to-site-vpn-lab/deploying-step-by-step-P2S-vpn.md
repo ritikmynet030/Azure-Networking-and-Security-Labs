@@ -59,7 +59,9 @@ Run PowerShell as Administrator:
 
 ``powershell
 
-screenshot
+📸 Screenshot:  
+![Local PC Certs](local-pc-certs.png)
+
 
 ## Export Root Certificate (Public Key Only)
 - Open certmgr.msc
