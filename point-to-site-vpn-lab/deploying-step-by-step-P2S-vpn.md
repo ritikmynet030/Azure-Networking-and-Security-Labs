@@ -76,7 +76,9 @@ Run PowerShell as Administrator:
 
 ## Create Client Certificate
 
-Screenshot
+📸 Screenshot:  
+![Client Certs](created-client-certs.png)
+
 
 Purpose: Used by your local device to authenticate.
 
