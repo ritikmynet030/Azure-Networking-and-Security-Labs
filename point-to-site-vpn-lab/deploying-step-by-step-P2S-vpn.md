@@ -58,7 +58,9 @@ Purpose: Enables encrypted VPN connectivity.
 Run PowerShell as Administrator:
 
 ``powershell
-screenshot
+
+📸 Screenshot:  
+![Gateway](S2S-virtual-network-gateway.png)
 
 ---
 
