@@ -61,3 +61,11 @@ Run PowerShell as Administrator:
 
 screenshot
 
+## Export Root Certificate (Public Key Only)
+- Open certmgr.msc
+- Personal → Certificates
+- Right-click P2SRootCert
+- Export → No private key
+- Select Base-64 encoded (.cer)
+- Save as P2SRootCert.cer
+
