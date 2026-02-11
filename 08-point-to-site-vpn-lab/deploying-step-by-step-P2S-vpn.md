@@ -2,7 +2,7 @@
 
 ---
 
-# STEP 1: Create Resource Group
+# 🔹 STEP 1: Create Resource Group
 
 - Name: `rg-p2s-vpn`
 - Region: `Central India`
@@ -11,7 +11,7 @@ Purpose: Logical container for all VPN resources.
 
 ---
 
-# STEP 2: Create Virtual Network
+# 🔹 STEP 2: Create Virtual Network
 
 ## Virtual Network
 
@@ -31,7 +31,7 @@ Purpose: Required for VPN Gateway deployment.
 
 ---
 
-# STEP 3: Create VPN Gateway
+# STEP 🔹 3: Create VPN Gateway
 
 Fill the following details:
 
@@ -49,7 +49,7 @@ Purpose: Enables encrypted VPN connectivity.
 
 ---
 
-# STEP 4: Create Certificates (Local Machine Only)
+# STEP 🔹 4: Create Certificates (Local Machine Only)
 
 ⚠ Do NOT use Azure Cloud Shell
 
@@ -80,7 +80,7 @@ Purpose: Used by your local device to authenticate.
 
 ---
 
-# STEP 5: Configure Point-to-Site (P2S) VPN
+# STEP 🔹 5: Configure Point-to-Site (P2S) VPN
 
 Navigate to:
 
@@ -103,7 +103,7 @@ Click **Save** after configuration.
 
 ---
 
-# STEP 6: Download VPN Client
+# STEP 🔹 6: Download VPN Client
 
 1. Go to **VPN Gateway**
 2. Click **Download VPN Client**
@@ -116,7 +116,7 @@ Windows Settings → Network → VPN
 
 ---
 
-# STEP 7: Connect from Local Machine
+# STEP 🔹 7: Connect from Local Machine
 
 1. Open **Windows Settings**
 2. Go to **Network & Internet → VPN**
@@ -130,7 +130,7 @@ This confirms the encrypted tunnel is successfully established.
 
 ---
 
-# STEP 8: Deploy Test VM (No Public IP)
+# STEP 🔹 8: Deploy Test VM (No Public IP)
 
 Create a virtual machine to validate private access.
 
@@ -146,7 +146,7 @@ Validate private connectivity through the VPN tunnel.
 
 ---
 
-# STEP 9: Test Access (Final Validation)
+# STEP 🔹 9: Test Access (Final Validation)
 
 From your local laptop (while VPN is connected):
 
