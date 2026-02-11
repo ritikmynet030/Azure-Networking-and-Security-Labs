@@ -1,13 +1,13 @@
 # 🔧 Lab Setup
 
-## Step 1: Create Resource Group
+## 🔹 Step 1: Create Resource Group
 
 - **Name:** rg-networkwatcher-lab  
 - **Region:** Central India  
 
 ---
 
-## Step 2: Create Virtual Network
+## 🔹 Step 2: Create Virtual Network
 
 - **Name:** vnet-nw-lab  
 - **Address Space:** 10.10.0.0/16  
@@ -18,7 +18,7 @@
 
 ---
 
-## Step 3: Create Virtual Machine
+## 🔹 Step 3: Create Virtual Machine
 
 - **Name:** vm-test  
 - **OS:** Windows or Linux  
@@ -27,7 +27,7 @@
 
 ---
 
-## Step 4: Create Network Security Group (NSG)
+## 🔹 Step 4: Create Network Security Group (NSG)
 
 Attach NSG to subnet or VM NIC.
 
@@ -83,6 +83,8 @@ Identifies where traffic is routed next.
 - VNet Peering  
 - None  
 
+screenshot
+
 ---
 
 # 🌐 3️⃣ Connection Troubleshoot
@@ -104,6 +106,8 @@ Tests real connectivity between VM and destination.
 - Reachable / Unreachable
 - Latency
 - Failure point (NSG / Route / Firewall)
+
+screenshot
 
 ---
 
