@@ -83,7 +83,8 @@ Identifies where traffic is routed next.
 - VNet Peering  
 - None  
 
-screenshot
+📸 Screenshot:  
+![Check Next Hop IP](next-hop-ip.png)
 
 ---
 
@@ -107,7 +108,8 @@ Tests real connectivity between VM and destination.
 - Latency
 - Failure point (NSG / Route / Firewall)
 
-screenshot
+📸 Screenshot:  
+![Trobleshoot](connection-troubleshoot.png)
 
 ---
 
