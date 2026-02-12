@@ -108,5 +108,15 @@ This project aligns with:
   - Configure VPN & ExpressRoute
   - Monitor & troubleshoot networking
 
+---
 
+## 👨‍💻 Author
+
+**Ritik Raj**  
+Azure Administrator | Cloud Enthusiast  
+Hands-on AZ-104 Practice Labs
+
+---
+
+⭐ If you find this repository helpful, feel free to star it!
 
