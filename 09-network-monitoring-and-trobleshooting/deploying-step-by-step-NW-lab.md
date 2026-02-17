@@ -1,4 +1,6 @@
-# 🔧 Lab Setup
+## 🛠 Step-by-Step Implementation
+
+---
 
 ## 🔹 Step 1: Create Resource Group
 
